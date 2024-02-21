@@ -1,0 +1,25 @@
+/* Variabilisation */
+:root{
+    --primary-color:#78350F;
+
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.text-primary-color {
+    color : var(--primary-color);
+}
+.border-color{
+    border-color: var(--primary-color);
+}
