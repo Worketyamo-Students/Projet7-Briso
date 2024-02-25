@@ -1,7 +1,6 @@
 /* Variabilisation */
 :root{
     --primary-color:#78350F;
-
 }
 
 *{
@@ -17,9 +16,21 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
 .text-primary-color {
     color : var(--primary-color);
 }
 .border-color{
     border-color: var(--primary-color);
+}
+.bg-gradient-oblique{
+    background-image:linear-gradient(154.7deg, #FFFBEB 70%, #FEF3C7 70%);
+}
+.bg-gradient-oblique2{
+    background-image:linear-gradient(695deg, #FEF3C7 70%, #FFFBEB 70%);
+}
+.bg-image{
+    background-image: url('Picture.png');
 }
