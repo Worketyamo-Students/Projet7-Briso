@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Variabilisation */
 :root{
     --primary-color:#78350F;
-    --secondary-colr: 
+    --font-chaussure : #FBBF24;
+    --font-roboto:"Roboto", sans-serif;
 }
 
 *{
@@ -16,6 +19,7 @@ body{
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+    font-family: var(--font-roboto);
 }
 .bg-primary-color{
     background-color: var(--primary-color);
@@ -23,14 +27,20 @@ body{
 .text-primary-color {
     color : var(--primary-color);
 }
+.bg-chaussure{
+    background-color: var(--font-chaussure);
+}
 .border-color{
     border-color: var(--primary-color);
 }
-.bg-gradient-oblique1{
-    background-image:linear-gradient(695deg, #FEF3C7 70%, #FFFBEB 70%);
+.bg-gradient-oblique1 {
+   background-image: linear-gradient(154.7deg, #FFFBEB 70%, #FEF3C7 70%);
 }
-.bg-gradient-oblique2{
-    background-image: linear-gradient(360deg, #0F172A 70%, #0F172A 70%);
+.bg-gradient-oblique2 {
+   background-image: linear-gradient(694.5deg, #FEF3C7 70%,  #FFFBEB 70%);
+}
+.bg-gradient-oblique3{
+    background-image:linear-gradient(360deg, #0F172A 70%, #0F172A 70%);
 }
 .bg-image1{
     background-image: url('/images/Desktop.png');
