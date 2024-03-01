@@ -67,6 +67,6 @@ body{
 .bg-image3{
     background-image: url('/images/chaus-blanche.png');
 }
-.bg-continent{
-    background-image: url('/images/AU.png') no-repeat, url('/images/GL.png') no-repeat,url('/images/PY.png') no-repeat,url('/images/RU.png') no-repeat;
+.bg-pt_rond{
+    background: url('/images/petit_rond.png') no-repeat center;
 }
